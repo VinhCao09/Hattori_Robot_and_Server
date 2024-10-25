@@ -1,5 +1,5 @@
 # Hattori Robot using Gemini API and Server Control Device
-Hattori Robot trợ lý thông minh tích hợp trí tuệ nhân tạo với API Gemini giúp giải đáp các câu hỏi, đồng thời website điều khiển cũng như điều khiển robot bằng app điện thoại
+Hattori Robot trợ lý thông minh tích hợp trí tuệ nhân tạo với API Gemini giúp giải đáp các câu hỏi, đồng thời website điều khiển cũng như điều khiển robot bằng app điện thoại (phát triển bằng MIT APP)
 
 ## ✨Introduction
 Dự án này là một robot trợ lý có khả năng trả lời mọi câu hỏi của bạn với API Gemini đồng thời bạn có thể ra lệnh bật tắt thiết bị qua giọng nói và website. Tuy nhiên dự án còn hạn chế chưa triển khai Mic trực tiếp cho robot mà phải điều khiển qua app android được phát triển. Đồng thời robot chưa được tích hợp khả năng phát lại âm thanh khi trả lời câu hỏi.
@@ -13,6 +13,7 @@ Dự án này là một robot trợ lý có khả năng trả lời mọi câu h
 - Server: PHP - Javascript
 - Website: HTML5, CSS, Bootstrap 5
 - Environment: Apache (XAMPP 3.3.0), PHP 8.2, ESP 32 2.0.9
+- MIT APP
 
 ## Components:
 - ESP32 Node MCU
