@@ -1,15 +1,9 @@
-# Hattori_Robot_and_Server
-Hattori Robot trợ lý thông minh
-
-# RFID Attendance - Wireless Technology Project
-Hệ thống điểm danh sinh viên sử dụng công nghệ RFID. Đồ án môn công nghệ không dây, bao gồm website quản lý, cơ sở dữ liệu SQL với các chức năng CRUD cơ bản, sử dụng vi điều khiển ESP8266 và Module đọc thẻ RC522. Có chức năng bảo mật thẻ (Key A, Sector 3). Có chức năng đăng nhập với QR.
+# Hattori Robot using Gemini API and Server Control Device
+Hattori Robot trợ lý thông minh tích hợp trí tuệ nhân tạo với API Gemini giúp giải đáp các câu hỏi, đồng thời website điều khiển cũng như điều khiển robot bằng app điện thoại
 
 ## ✨Introduction
-Dự án này là một hệ thống IoT có khả năng điểm danh tự động với RFID. Giúp dễ dàng quản lý cho các trường học.
-- Đề tài có thể lưu trữ thông tin cơ bản của sinh viên như Họ tên, Giới tính, Email, MSSV trên cơ sở dữ liệu SQL. Đồng thể có thể thao tác CRUD (Create, Read, Update & Delete).
-- Đề tài bao gồm một website để xem, quản lý, có khả năng truy cập từ xa.
-- Có chức năng bảo mật thẻ, chống sao chép thẻ (bảo mật với Key A, Sector 3)
-
+Dự án này là một robot trợ lý có khả năng trả lời mọi câu hỏi của bạn với API Gemini đồng thời bạn có thể ra lệnh bật tắt thiết bị qua giọng nói và website. Tuy nhiên dự án còn hạn chế chưa triển khai Mic trực tiếp cho robot mà phải điều khiển qua app android được phát triển. Đồng thời robot chưa được tích hợp khả năng phát lại âm thanh khi trả lời câu hỏi.
+- Một số tính năng cử chỉ: Vui vẻ khi vuốt ve (dùng chân touch trên ESP32), khả năng tự xử lý chuyển động với Servo động học 2 bậc (dùng 2 servo)
 *🌐Giao diện website:*
 ![images](https://github.com/VinhCao09/RFIDAttendance_WirelessTechnologyProject/blob/main/images/1.jpg)
 ![images](https://github.com/VinhCao09/RFIDAttendance_WirelessTechnologyProject/blob/main/images/2.jpg)
